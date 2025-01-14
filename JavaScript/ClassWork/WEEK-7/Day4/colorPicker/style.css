@@ -1,0 +1,57 @@
+.color-box {
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+    background-color: lightgray;
+    border: 5px double black;
+    
+  }
+  .controls {
+    text-align: center;
+  }
+  button, input {
+    margin: 5px;
+  }
+
+ label {
+  display: flex;
+  justify-content: center;
+  font-family:'Courier New', Courier, monospace;
+ }
+
+ #redButton {
+  color: red;
+ }
+
+ #greenButton {
+  color: Green;
+ }
+
+ #blueButton {
+  color: blue;
+ }
+
+ .apply {
+ display: flex;
+ justify-content: center;
+ padding: 10px;
+ height: 30px;
+ width: auto;
+ 
+ }
+
+ h1 {
+  display: flex;
+  justify-content: center;
+ }
+
+ .reset {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  height: 40px;
+  width: auto;
+ }
+ 
+ 
+ 

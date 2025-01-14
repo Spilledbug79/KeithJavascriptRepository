@@ -1,0 +1,26 @@
+let greeting = "Hello";
+const regularGreeting = greeting + '.';
+greeting = "Hi";
+let yelledGreeting = greeting + '!';
+let surprisedGreeting = "Oh! " + regularGreeting;
+
+// What is the value of greeting after line 1 executes?
+
+greeting="Hello";
+
+// What is the value of regularGreeting after line 2 executes?
+
+regularGreeting='Hello.';
+
+// What is the value of greeting after line 3 executes?
+
+greeting="Hi";
+
+
+// What is the value of yelledGreeting after line 4 executes?
+
+yelledGreeting='Hi!';
+
+
+// What is the value of surprisedGreeting after line 5 executes?
+surprisedGreeting="Oh! Hello.";
