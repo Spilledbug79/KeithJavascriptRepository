@@ -65,24 +65,24 @@ return  student === "student";
 }
  
 
-// isTeacher
+isTeacher
 
-// function isTeacher(teacher){
-  // return teacher === "teacher";}
-
-
- 
-
-// isAdmin
-
-// function isAdmin(administrator){
-  // return administrator === "admin";}
+function isTeacher(teacher){
+  return teacher === "teacher";}
 
 
  
 
-// function isElementary(school){
-  // return school === "elementary";}
+isAdmin
+
+function isAdmin(administrator){
+  return administrator === "admin";}
+
+
+ 
+
+function isElementary(school){
+  return school === "elementary";}
 
 
  
@@ -97,11 +97,12 @@ function areDifferentPeople(name1,name2){
 
 // is middle school teacher
 
-// function isMiddleSchoolTeacher(role, schoolLevel){
-    // return role === "teacher" && schoolLevel >= 6 && schoolLevel <=8;}
+function isMiddleSchoolTeacher(role, schoolLevel){
+    return role === "teacher" && schoolLevel >= 6 && schoolLevel <=8;}
 
 
  
+    
 
 // not a elementary school admin
   

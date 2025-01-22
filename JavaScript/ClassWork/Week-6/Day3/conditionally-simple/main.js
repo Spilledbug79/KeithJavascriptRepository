@@ -4,19 +4,19 @@
 
 //long string
 let str = 'hey'
-function IsItLong(str){
+function isItLong(str){
 if (str.length > 20 ){
-  return "that's a long string"
+return "That's a long string!"
 } else {
-  return;
+  return undefined;
 }
-console.log(IsItLong(str));
 }
+console.log(isItLong(str))
 
 //medium string
 function isItMedium(str){
- if (str.length >=10 && str.length <=20){
-return "that's a regular sized string"
+ if (str.length >= 10 && str.length <=20 ){
+return "That's a regular sized string!"
  } else {
   return;
  }
@@ -27,8 +27,8 @@ return "that's a regular sized string"
 function isItShort(str){
   if(str.length<10){ 
     return "That's a small string!" 
-} else {
-  return;
+} else if (str.length = 10) {
+  return "That's not a small string!"
 }
 
  console.log(isItShort(str));
