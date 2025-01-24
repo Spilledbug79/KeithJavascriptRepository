@@ -1,7 +1,128 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+ 
 
+// addAll
+ 
+//  const addAll = function(array){
+//   return array.reduce((acc,current)=>{
+//     return acc + current;
+//   }, 0);
+
+//   }
+//   console.log(addAll([1,2,3]))
+ 
+  const addAll = function (array){
+    let sum = 0;
+
+    for ( let num of array){
+      sum += num;
+    }
+     return sum;
+  }
+  console.log(addAll([1,2,3,4]))
+ 
+ 
+
+// countSpaces
+
+ 
+
+const countSpaces = function (str) {
+   let sum = 0;
+for (let char of str) {
+    if (char === " ") {
+      sum++ 
+    }
+   } return sum++
+  }
+  console.log(countSpaces("hello there Keith"));
+
+  // CountTrues
+  
+  const countTrues = function (values) {
+    let count = 0;
+    for (let value of values) {
+      if (value === true ) {
+           count++
+      }
+    } return count++
+  }
+
+    console.log(countTrues([ 8, 0, "0", "truthy", 1, "1", true]));
+  
+      
+//  makeFriendly
+ 
+const makeFriendly = function (str) {
+  let newStr = "";
+for (let char of str) {
+   if (char === ".") {
+     newStr += "!" 
+   } else {
+     newStr += char;
+   }
+  } return newStr;
+ }
+ console.log(makeFriendly("hello. there. Keith."));
+
+// cubeAll
+
+const cubeAll = function (array) {
+ for (const num of array) {
+    cubed = array.map(num => num**3)
+    } return cubed
+}
+ console.log(cubeAll([2,4,6]));
+
+//  addNoises
+
+const addNoises = function (array) {
+  let result = []
+  for (let animal of array) {
+    if (animal === "Fido" || animal === "Rolph" || animal === "Maisie") {
+      result.push(animal +  ' says "Woof!"' );
+    } else if (animal === 'Heathcliff' || animal === 'Garfield' ) {
+      result.push(animal + ' says "Meow!"' );
+    } else if (animal === "Sharp Tooth" || animal === "Barnie" ) {
+      result.push(animal + ' says "ROWR."');
+    }
+  } return result;
+}
+    console.log(addNoises(['Fido', 'Garfield', 'Sharp Tooth']))
+
+
+// womenOnly
+
+
+const womenOnly = function (names) {
+  const Females = [];
+ for (let name of names) {
+    if (name.endsWith("F")){
+      Females.push(name)
+    }
+   }  return Females
+ }
+
+  
+console.log(womenOnly(["Billy"]));
+
+const integersOnly = function (num) {
+  const integer= []
+  for (let numbers of num) {
+    if (numbers % 1 === 0) {
+      integer.push(numbers);
+    }
+  }return integer;
+}
+
+console.log(integersOnly([4,5,6.2,5,4,-7,-8.23, 8/6]))
+
+
+
+
+  
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
@@ -42,15 +163,7 @@ if (typeof integersOnly === 'undefined') {
 }
 
 const assert = require('assert');
-const {
-  addAll,
-  countSpaces,
-  countTrues,
-  makeFriendly,
-  cubeAll,
-  addNoises,
-} = require('./your-functions'); // Import your functions
-
+ 
 describe('addAll', () => {
   it(`adds all the numbers in the array`, () => {
     const nums1 = [5, 3, 7, -11, 1003];
