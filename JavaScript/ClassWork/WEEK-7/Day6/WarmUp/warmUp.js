@@ -4,7 +4,7 @@ function startsWithChar(str, char) {
    char.toLowerCase();
   }
 
-console.log(startsWithChar('JavaScript', ' '))
+console.log(startsWithChar('JavaScript', 't'))
 
 
 

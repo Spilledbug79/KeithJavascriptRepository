@@ -15,7 +15,7 @@ console.log(isItLong(str))
 
 //medium string
 function isItMedium(str){
- if (str.length >= 10 && str.length <=20 ){
+ if (str.length >= 10 && str.length <=20){
 return "That's a regular sized string!"
  } else {
   return;
@@ -50,7 +50,7 @@ function howLongIsMyString(str){
   
   //persons height
   function personsHeight(str){
-    if(str === "tiana"){
+    if(str === "Tiana"){
       return(50);
     }
     else if (str === "Shaq"){
@@ -66,25 +66,6 @@ function howLongIsMyString(str){
   console.log(personsHeight("Zooey"))
 
   
-
-
-  
-
-
-  
-
-  
-
-
-  
-  
-  
-
-
-
-
-
-
 
 
 /**********************************

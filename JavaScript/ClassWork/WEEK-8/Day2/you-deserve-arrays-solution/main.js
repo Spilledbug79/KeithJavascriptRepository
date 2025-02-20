@@ -3,10 +3,12 @@
  ******************/
 // 1. first Item 
 
+ 
+
 function getFirstItemFrom(array){
   return array.shift();
 }
-  
+  console.log(getFirstItemFrom([ 1,2,3,4,5 ]));
 
 
 
@@ -16,7 +18,7 @@ function getLastItemFrom(array){
  return array.pop();
 } 
  
-  
+console.log(getLastItemFrom([1,2,3,4,5]));
 
 // 3. get Index of 3
 
@@ -27,10 +29,10 @@ function getLastItemFrom(array){
  return (array.pop())
   }}
   
+  console.log(getIndex3([1]))
   
   
-  
-  // array thats more than or equal to 10
+  4.// array thats more than or equal to 10
 
 
 
@@ -41,15 +43,17 @@ function isLongList(array){
    return false;
  }
 }
+console.log(isLongList([1,2,3,4,5,6,7,8,9,10,11]))
 
-
-// if first item is a number
+5.// if first item is a number
 
 function firstItemIsNumber(array){
    return typeof array[0] === 'number';}
 
+   console.log(firstItemIsNumber([1,2,3,4,'a']))
 
-// second character of third string
+
+6.// second character of third string
 
 
 function secondCharOfThirdString(array){

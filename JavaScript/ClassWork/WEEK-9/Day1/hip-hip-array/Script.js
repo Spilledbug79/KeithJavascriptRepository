@@ -11,14 +11,14 @@
 
 // }
 
-// Hands on Practice
+// // Hands on Practice
 
-// Challenge 1:
+// // Challenge 1:
 
 // const colors = ['red','blue','green','yellow'];
 // colors.forEach(color => {console.log(color)});
 
-// Challenge 2:
+// // Challenge 2:
 
 // const nums = [2, 4, 6, 8];
 
@@ -27,7 +27,7 @@
  
  
 
-// Challenge 3:
+// // Challenge 3:
 
 // const mixedNumbers = [-3, 5, -1, 7, -10, 4];
 

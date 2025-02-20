@@ -12,5 +12,5 @@ function fizzy(num){
       return num;
     }
   } 
-  const num = getInput(2)
+  const num = getInput(1)
   console.log(fizzy(num))

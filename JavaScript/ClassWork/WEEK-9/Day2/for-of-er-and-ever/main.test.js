@@ -96,7 +96,7 @@ const addNoises = function (array) {
 // womenOnly
 
 
-const womenOnly = function (names) {
+const womenOnly = (names) => {
   const Females = [];
  for (let name of names) {
     if (name.endsWith("F")){
@@ -106,7 +106,7 @@ const womenOnly = function (names) {
  }
 
   
-console.log(womenOnly(["Billy"]));
+console.log(womenOnly(["Billy F"]));
 
 const integersOnly = function (num) {
   const integer= []

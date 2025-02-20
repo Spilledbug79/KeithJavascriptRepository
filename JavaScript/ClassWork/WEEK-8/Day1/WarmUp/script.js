@@ -40,11 +40,11 @@ function evenOrOdd(num){
 
     function timeOfLife(age){
 
-      if( age >= 5 && age <=13){
+      if( age >= 5 && age <=13 ){
       console.log("you are an adolescent.");
     } else {
       console.log("you are not an adolescent.");
-    }
+    };
     }
   
     timeOfLife(13);
