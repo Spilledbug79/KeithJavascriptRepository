@@ -14,7 +14,7 @@ let greeting = document.addEventListener("DOMContentLoaded", function() {
 
 let container = document.getElementById('box')
 hideBtn.addEventListener("click", function(){
-  container.style.display ="none"
+  container.style.display ="none";
 })
 
 

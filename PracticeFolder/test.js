@@ -255,7 +255,7 @@
 
  
 
-// firstWeek = [1,2,3,4,5,6,7,8];
+// let firstWeek = [1,2,3,4,5,6,7,8];
 
 //  function sameDayOfWeek(sameDay){
 //   if (sameDay <= 21) {
@@ -266,7 +266,7 @@
 //     console.log("'NOT' in the month.")
 //   }
 //  };  
-//   sameDayOfWeek(28)
+//   sameDayOfWeek(2)
    
  
 // name = ["Mathew"]
@@ -325,4 +325,121 @@
 
 // console.log(randomNum); 
 
+//  let third = "thirdDay"
+// function newDay(third){
+//    third = "tommorrow"
+//     }
+
+
+//   console.log(newDay(third))
+
  
+// const obj = {
+//   method: function() {
+//     console.log(this); // refers to obj
+//   }
+// };
+// obj.method();
+
+// function myFunction() {
+//   console.log(this); // refers to the global object (window in non-strict mode, undefined in strict mode)
+// }
+// myFunction();
+
+//  const person =  {
+// name: "Keith",
+//   greet: () =>  {
+//   return `Hello, my name is ${this.name}!`;
+//   }
+//   };
+     
+// console.log(person.greet())
+
+// function Person(name) {
+//   this.name = name; this.sayHello = function() { return `Hello, my name is ${this.name}`;
+//   };
+//   } const person1 = new Person("Alice"); console.log(person1.sayHello());
+
+//  button2 = document.getElementById('button2')
+
+//   document.querySelector("button").addEventListener("click", function() { this.style.backgroundColor ="red"; });
+
+//   button2.addEventListener('click', function(){
+//     this.style.background ='green';
+//   })
+  
+// function sayHello() {
+//   console.log(`Hello, ${this.name}`);
+//   }
+//   const user = { name: "David" };
+//   sayHello.call(user);
+
+
+// RANDOM NUMBER AND ARRAY GENERATOR:
+ 
+
+// function randomInt(min, max) {
+//   min = Math.ceil(min);
+//   max = Math.floor(max);
+//  return Math.floor(Math.random() * (max - min + 1)) + min
+// };
+
+// function randomArray(arrayLength, min, max) {
+//    return Array(arrayLength).fill().map(num => randomInt( min, max )); 
+  
+// };
+// let newArray = randomArray(3,2,3);
+ 
+// document.querySelector('button').addEventListener('click', function(){
+//   console.log(newArray)
+// })
+
+// document.querySelector("button").addEventListener("click", function(){
+//   if ( newArray[0] === newArray[1] ){
+//    alert("You Won!")
+//   } else {
+//     alert('You Lost')
+//   }});
+     
+// document.querySelector('button').addEventListener('click', function(){
+//   console.log(newArray)
+// });
+
+
+  //-----------------------------------------------------------------------------------//
+
+  //-----------------------------------------------------------------------------------//
+  
+ //* How to display the result of a function to a web page.*
+
+// function addNum(a, b){
+//   return a + b;
+// }
+
+// let result = addNum(1, 2)
+// let result2 = addNum(5, 3)
+ 
+// document.getElementById('num').innerHTML = result2;
+ 
+ // ---------------------------------------------------//
+ 
+ //-----------------------------------------------------//
+
+ 
+
+ function person(name){
+
+ if( typeof === "string" ){
+  
+ document.write("it is your name")
+}
+ else if( name !== "Keith") {
+ document.write("it's not your name")
+    }
+ else {
+  return;
+  } 
+}
+
+  person("sdfasf")
+
