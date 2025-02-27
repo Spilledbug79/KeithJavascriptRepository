@@ -19,12 +19,10 @@ const keithsFarm = {
  
 newFarm = {...keithsFarm, ...waynesFarm};
 
-console.log(newFarm);
+ 
 
- for (let key in Object) {
-  console.log(Object.key(Object))
- }
-
+ 
+ 
    
 
     

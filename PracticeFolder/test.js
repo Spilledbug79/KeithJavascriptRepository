@@ -424,22 +424,16 @@
  // ---------------------------------------------------//
  
  //-----------------------------------------------------//
+ 
+ 
+ ////search using (.test )
+
+function test(sentence){
+let regex = /a/
+  return regex.test(sentence)
+
+}
+
+console.log(test(cat))
 
  
-
- function person(name){
-
- if( typeof === "string" ){
-  
- document.write("it is your name")
-}
- else if( name !== "Keith") {
- document.write("it's not your name")
-    }
- else {
-  return;
-  } 
-}
-
-  person("sdfasf")
-
