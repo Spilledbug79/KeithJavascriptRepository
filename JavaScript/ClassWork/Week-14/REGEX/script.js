@@ -52,7 +52,7 @@ function startsWithHello(text) {
    }
 }
 
-console.log(startsWithHello("Hello World how are you")); // true
+console.log(startsWithHello("Hello World how are you ?")); // true
 console.log(startsWithHello("world Hello")); // false
 
 

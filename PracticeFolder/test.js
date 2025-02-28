@@ -428,12 +428,16 @@
  
  ////search using (.test )
 
-function test(sentence){
-let regex = /a/
-  return regex.test(sentence)
-
-}
-
-console.log(test(cat))
+ 
 
  
+//  let regex = /cat\B/; 
+//  let text = "category";
+//  console.log(text.match(regex)); 
+ 
+
+ function word(words){
+  let regex = /\bcatapillar\b/;
+  return words.match(regex)
+ }
+ console.log(word( "catapillar food" ))
