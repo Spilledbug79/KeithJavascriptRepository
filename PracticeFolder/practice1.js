@@ -1,17 +1,13 @@
 //REGEX PRACTICE
 
-// *1. Practice Exercises:
+// let text = "Is this all there is?";
+// let pattern = /\s/g;
+// let result = text.match(pattern);
 
-function containsJavaScriptCaseInsensitive(str) {
-  const regex = /[a-z]/javascript || [A-Z]/javascript/
-  return regex.test(str);
-}
+// document.getElementById("demo").textContent = result;
 
-// Example usage:
-const string1 = "This string contains JavaScript.";
-const string2 = "nothing here.";
-const string3 = "JAVASCRIPT is everywhere!";
+// .split() method
 
-console.log(containsJavaScriptCaseInsensitive(string1)); // true
-console.log(containsJavaScriptCaseInsensitive(string2)); // false
-console.log(containsJavaScriptCaseInsensitive(string3)); // true
+ 
+ 
+

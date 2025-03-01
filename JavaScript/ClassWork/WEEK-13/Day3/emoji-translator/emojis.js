@@ -499,7 +499,7 @@ const emojis = [
     {
         symbol: '🔥',
         name: 'fire',
-        categories: [],
+        categories: ['holiday'],
     },
     {
         symbol: '🎃',
@@ -588,3 +588,6 @@ const emojis = [
         ],
     },
 ]
+
+
+ 

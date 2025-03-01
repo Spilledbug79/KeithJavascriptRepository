@@ -436,8 +436,16 @@
 //  console.log(text.match(regex)); 
  
 
- function word(words){
-  let regex = /\bcatapillar\b/;
-  return words.match(regex)
- }
- console.log(word( "catapillar food" ))
+//  function word(words){
+//   let regex = /(?<word>\w+)/;
+  
+//   return words.match(regex)
+//  }
+//  console.log(word( "Keith" ))
+//  console.log (groups.word)
+
+let words = ("Keith is really super duper great".split(' '));
+   
+let word = (words[3])
+
+document.getElementById('word').textContent = word
