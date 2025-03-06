@@ -5,11 +5,11 @@ let addButton = document.getElementById("add-btn");
 let list = document.getElementById('item-list');
 
  
-let key = document.getElementById("item-input")
+let itemInput = document.getElementById("item-input")
 
    //KEYPRESS
   
-   key.addEventListener("keydown", function (event) {
+   itemInput.addEventListener("keydown", function (event) {
   if (input.value.trim() !== '' && event.key === "Enter"){
 
     let newItem = document.createElement('li'); 

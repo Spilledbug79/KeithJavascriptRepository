@@ -348,7 +348,7 @@
 
 //  const person =  {
 // name: "Keith",
-//   greet: () =>  {
+//   greet: () => {
 //   return `Hello, my name is ${this.name}!`;
 //   }
 //   };
@@ -367,6 +367,10 @@
 //   button2.addEventListener('click', function(){
 //     this.style.background ='green';
 //   })
+
+//-----------------------------------------------------------------//
+
+// Using the "CALL" method.
   
 // function sayHello() {
 //   console.log(`Hello, ${this.name}`);
@@ -444,8 +448,42 @@
 //  console.log(word( "Keith" ))
 //  console.log (groups.word)
 
-let words = ("Keith is really super duper great".split(' '));
-   
-let word = (words[3])
+//--------------------------------------------------------------------------------------------------//
+//--------------------------------------------------------------------------------------------------//
 
-document.getElementById('word').textContent = word
+//* A SIMPLE ADDING CALCULATOR:
+
+const num1Input = document.getElementById("num1");
+ 
+const addBtn = document.getElementById("addBtn");
+
+const result = document.getElementById("result");
+
+addBtn.addEventListener("click", function() {
+  const number1 = parseFloat(num1Input.value);
+  const number2 = 5
+
+      const sum = number1 + number2;
+      result.textContent = sum;
+    }
+);
+num1Input.addEventListener("keydown", function(event) {
+  if(event.key === "Enter") {
+      number1 = parseFloat(num1Input.value);
+      number2 = 5;
+
+      const sum = number1 + number2;
+      result.textContent = sum;
+    }
+  }
+);
+   
+//----------------------------------------------------------------------------------------------------//
+//----------------------------------------------------------------------------------------------------// 
+ 
+ 
+
+  
+  
+
+
