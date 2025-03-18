@@ -40,3 +40,21 @@ body {
     right: 0;
 }
 
+.Score {
+    display: flex;
+    margin: auto;
+  justify-content: space-evenly
+}
+
+.playerScore {
+    font-size: 50px;
+}
+
+.computerScore {
+    font-size: 50px;
+}
+
+.line {
+border: 1px dotted black;
+height: 500px;
+}

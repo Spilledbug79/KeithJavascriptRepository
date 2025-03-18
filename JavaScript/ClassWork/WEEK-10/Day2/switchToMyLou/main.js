@@ -58,7 +58,7 @@ console.log(identifySeason(12));
 
 // menu selection
 
-let other = "Invalid choice";
+ 
 
 function menuSelection(selection){
   switch(selection){

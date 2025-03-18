@@ -1,5 +1,3 @@
-let computerPoints = 0;
-let playerPoints = 0;
 //  Size of the game area (in px)
 const GAME_AREA_WIDTH = 700;
 const GAME_AREA_HEIGHT = 500;
@@ -8,7 +6,7 @@ const PADDLE_HEIGHT = 100;
 const PADDLE_WIDTH = 20;
 // Size of the ball (in px)
 const BALL_SIZE = 20;
- // Paddle elements
+// Paddle elements
 const playerPaddle = document.querySelector('.player-paddle');
 const computerPaddle = document.querySelector('.computer-paddle');
 const ball = document.querySelector('.ball');
@@ -28,9 +26,9 @@ let ballYVelocity = 3;
 function update() {
     // Update the computer paddle's position (simple AI)
     if (computerPaddleYPosition + PADDLE_HEIGHT / 2 < ballYPosition) {
-        computerPaddleYPosition += 2; // Move down
+        computerPaddleYPosition += 4; // Move down
     } else {
-        computerPaddleYPosition -= 2; // Move up
+        computerPaddleYPosition -= 4; // Move up
     }
     // Apply the paddle positions
     playerPaddleYPosition += playerPaddleVelocity;
@@ -63,31 +61,16 @@ function update() {
     ) {
         ballXVelocity *= -1; // Reverse ball direction
         ballXPosition = GAME_AREA_WIDTH - PADDLE_WIDTH - BALL_SIZE; // Prevent sticking
-        
     }
     // Ball collision with left and right walls (reset)
     if (ballXPosition <= 0 || ballXPosition + BALL_SIZE >= GAME_AREA_WIDTH) {
-
-        if (ballXPosition <= 0) {
-            computerPoints += 1;
-        } else {
-            playerPoints += 1;
-        }
         // Reset ball to center
         ballXPosition = GAME_AREA_WIDTH / 2 - BALL_SIZE / 2;
         ballYPosition = GAME_AREA_HEIGHT / 2 - BALL_SIZE / 2;
         ballXVelocity = -ballXVelocity; // Reverse direction
     }
-
-    document.querySelector('.playerPoints').textContent = `Player: ${playerPoints}`
-
- document.querySelector('.computerPoints').textContent = `Computer: ${computerPoints}`
 }
 // Move player paddle using keyboard
-
-
-
-
 document.addEventListener('keydown', (event) => {
     if (event.key === 'ArrowUp') {
         playerPaddleVelocity = -PLAYER_SPEED; // Move up
@@ -102,23 +85,3 @@ document.addEventListener('keyup', (event) => {
 });
 // Call the update() function every 35ms
 setInterval(update, 30);
-
-// ---------------------------------------------------------------------------------------------//
-
-
- 
-
-  
- 
- 
-
- 
- 
-
-  
-  
- 
-
-
-
-
