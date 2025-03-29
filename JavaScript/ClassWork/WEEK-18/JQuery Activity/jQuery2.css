@@ -1,0 +1,27 @@
+
+/* 2. Change Text Color on Hover */
+h2 {
+    transition: color 0.3s;
+  }
+
+/* 4. Fade Out Div on Click*/
+#fadeDiv {
+    padding: 20px;
+    background: #ccc;
+    cursor: pointer;
+  }
+
+  .accordion-header{
+    background: #eee;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+
+  .accordion-content{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+  }

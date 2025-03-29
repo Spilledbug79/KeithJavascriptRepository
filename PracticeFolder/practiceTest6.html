@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Form</title>
+ <link rel="stylesheet" href="PracticeStyle6.css">
+</head>
+<body>
+
+ <form id="my-form" name="myForm" action="#">
+  
+  <label for="name">Name:</label>
+  
+  <input type="text" name="name" id="textInput"> 
+  
+  <br/>
+
+  <label>Hobbies:</label>
+  
+  <br/>
+
+  <input type="checkbox" name="biking" value="biking">Biking<br/>
+  <input type="checkbox" name="skiing" value="skiing">Skiing<br/>
+  <input type="checkbox" name="diving" value="diving">Diving<br/>
+
+  <label for="colour">Fav Colour:</label>
+  
+  <select name="colour">
+   <option>RED</option>
+   <option>BLUE</option>
+   <option>GREEN</option>
+   </select>
+ 
+   <input type="submit" name="submit" value="Submit">
+ 
+  </form>
+
+  <div id="message" style="color: red;"></div>
+   
+<script src="PracticeScript6.js"></script>
+</body>
+</html>

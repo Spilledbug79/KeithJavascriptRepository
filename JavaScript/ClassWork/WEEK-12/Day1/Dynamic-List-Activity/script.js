@@ -4,7 +4,6 @@ let addButton = document.getElementById("add-btn");
 
 let list = document.getElementById('item-list');
 
- 
 let itemInput = document.getElementById("item-input")
 
    //KEYPRESS
