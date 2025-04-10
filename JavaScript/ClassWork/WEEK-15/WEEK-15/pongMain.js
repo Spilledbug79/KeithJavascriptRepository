@@ -101,7 +101,7 @@ document.addEventListener('keyup', (event) => {
     }
 });
 // Call the update() function every 35ms
-setInterval(update, 30);
+setInterval(update, 20);
 
 // ---------------------------------------------------------------------------------------------//
 
